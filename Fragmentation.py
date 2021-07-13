@@ -271,3 +271,7 @@ def precursorSpecificIons(dataframe):
 if __name__ == "__main__":
     df = fragmentIons(SEQUENCE, DICT_MODIFICATIONS, 'K')
     df.to_csv('{sequence}_Fragmentation.csv'.format(sequence = SEQUENCE), index=False)
+
+    identified = precursorSpecificIons(df)
+    identified.to_csv('{sequence}_precursorSpecificIons.csv'.format(sequence=SEQUENCE), index=False)
+    
