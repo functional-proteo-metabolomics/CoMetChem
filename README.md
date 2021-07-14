@@ -9,3 +9,4 @@ prior to running any of the scripts in this repository:
 - numpy
 - scipy
 - wx
+- pastaq
