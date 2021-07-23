@@ -1,5 +1,4 @@
 These scripts were used for CoMetChem data analysis of the peptide H3(18-26).
-# Description
 
 # Requirements
 
